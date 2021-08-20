@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "357572991067",
+    "project_id": "smartclassroom-d1e84",
+    "storage_bucket": "smartclassroom-d1e84.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:357572991067:android:e17a9ba2aa3caa93c7877e",
+        "android_client_info": {
+          "package_name": "com.example.smartclassroom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "357572991067-i8bvc53fnvd3bkhahn16bfkkt0b3tttd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0Yb9OnW2yOT0NiwpmzApUMNc0QkaqAQ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "357572991067-i8bvc53fnvd3bkhahn16bfkkt0b3tttd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
