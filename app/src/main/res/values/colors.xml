@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#6200EE</color>
-    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorPrimary">#432121</color>
+    <color name="colorPrimaryDark">#432121</color>
     <color name="colorAccent">#432121</color>
     <color name="background">#f5e5bc</color>
     <color name="text">#432121</color>
@@ -9,4 +9,4 @@
     <color name="darker_gray">#AAAAAA</color>
 </resources>
 
-<!--#03DAC5-->
+<!--#03DAC5 #3700B3 #6200EE-->
