@@ -56,7 +56,7 @@ public class departments extends AppCompatActivity  {
                             drawerLayout.closeDrawer(GravityCompat.START);
                             break;
                         case R.id.nav_ISE:
-                            Toast.makeText(departments.this,"ISE department has been selected",Toast.LENGTH_LONG).show();
+                            startActivity(new Intent(departments.this, Ise_Department.class));
                             drawerLayout.closeDrawer(GravityCompat.START);
                             break;
                         case R.id.nav_ECE:
