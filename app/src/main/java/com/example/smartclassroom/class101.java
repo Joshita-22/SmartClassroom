@@ -2,6 +2,7 @@ package com.example.smartclassroom;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -19,7 +20,7 @@ import java.util.Random;
 
 public class class101 extends AppCompatActivity {
     ImageView lighton,lightoff;
-    TextView light;
+    TextView light, class_name;
 
 
 
@@ -30,10 +31,17 @@ public class class101 extends AppCompatActivity {
         lighton=(ImageView)findViewById(R.id.lighton);
         lightoff=(ImageView)findViewById(R.id.lightoff);
         light=(TextView)findViewById(R.id.light);
+        class_name = findViewById(R.id.classname);
+
+        Intent intent = getIntent();
+        String classname = intent.getStringExtra("class name");
+        class_name.setText(classname);
+
+
 
         Random rand = new Random();
         int a=rand.nextInt(2);
-       // Log.i("info","random number is"+a);
+        //Log.i("info","random number is"+a);
 
 
         HashMap<String,Object> map = new HashMap<>();

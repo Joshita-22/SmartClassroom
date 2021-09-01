@@ -9,8 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".class102"></activity>
-        <activity android:name=".class101" />
+        <activity android:name=".class101"
+            android:launchMode="singleInstance"/>
         <activity android:name=".Ise_Department" />
         <activity android:name=".ForgotPassword" />
         <activity android:name=".departments" />
