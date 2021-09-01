@@ -61,6 +61,7 @@
                     android:layout_height="match_parent"
                     android:text="101"
                     android:textColor="@color/background"
+                    android:background="#854B4B"
                     android:padding="25dp"
                     android:textAlignment="center"
                     android:textSize="30sp"
@@ -77,9 +78,11 @@
                 app:cardBackgroundColor="#854B4B">
 
                 <TextView
+
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="102"
+                    android:background="#854B4B"
                     android:textColor="@color/background"
                     android:padding="25dp"
                     android:textAlignment="center"
@@ -97,9 +100,11 @@
                 app:cardBackgroundColor="#854B4B">
 
                 <TextView
+
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="103"
+                    android:background="#854B4B"
                     android:textColor="@color/background"
                     android:padding="25dp"
                     android:textAlignment="center"

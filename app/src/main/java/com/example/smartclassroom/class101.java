@@ -28,31 +28,31 @@ public class class101 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_class101);
-        lighton=(ImageView)findViewById(R.id.lighton);
-        lightoff=(ImageView)findViewById(R.id.lightoff);
-        light=(TextView)findViewById(R.id.light);
+        lighton=findViewById(R.id.lighton);
+        lightoff=findViewById(R.id.lightoff);
+        light=findViewById(R.id.light);
         class_name = findViewById(R.id.classname);
 
         Intent intent = getIntent();
         String classname = intent.getStringExtra("class name");
+
+
         class_name.setText(classname);
-
-
 
         Random rand = new Random();
         int a=rand.nextInt(2);
-        //Log.i("info","random number is"+a);
+        Log.i("info","random number is"+a);
 
 
         HashMap<String,Object> map = new HashMap<>();
-        map.put("light_status",a);
+        map.put("light_status ",a);
         FirebaseDatabase.getInstance().getReference().child("Ise department").child("class101").updateChildren(map);
         if(a==1){
-            light.setText("Light_Status:"+" " +Integer.toString(a)+" "+"ON!!");
+            light.setText("Light_Status:"+" " +a+" "+"ON!!");
             lighton.setVisibility(View.VISIBLE);
             lightoff.setVisibility(View.INVISIBLE);
         }else{
-            light.setText("Light_Status:"+" " +Integer.toString(a)+" "+"OFF!!");
+            light.setText("Light_Status:"+" " +a+" "+"OFF!!");
             lightoff.setVisibility(View.VISIBLE);
             lighton.setVisibility(View.INVISIBLE);
         }
